@@ -1,18 +1,20 @@
 <template>
   <DarkHero v-if="isDark" :ref="cursorElement" />
   <LightHero v-else />
+  <Portfolio />
   <follow-me />
 </template>
 
 <script>
 import { computed, ref, watch, onBeforeUnmount, nextTick } from "vue";
 import FollowMe from "./page/followMe.vue";
+import Portfolio from "./Portfolio.vue";
 import DarkHero from "./page/hero/DarkHero.vue";
 import LightHero from "./page/hero/LightHero.vue";
 export default {
   //TODO: dark and light hero didn't switch automatically
   name: "Home",
-  components: { FollowMe, DarkHero, LightHero },
+  components: { FollowMe, DarkHero, LightHero, Portfolio },
   props: ['mode'],
   setup(props) {
     //TODO: the animation dark hero cannot be started!
