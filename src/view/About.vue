@@ -17,10 +17,14 @@
           <li> Software Architectural Patterns </li>
           <li> Web Development (Back-End & Front-End) </li>
         </ul> <br />
-        <p class="text-gray-700 text-lg">Over 3 years I worked on backend development for backoffice application,<br />
-          e-KYC REST-API, Insurance REST-API, Umrah REST-API and more. <br> <br />
-          And in spare time, Im using my time to improving myself with knowledge about productivity, leadership,
-          communication, another technologies and more.
+        <p class="text-gray-700 text-lg">
+          With over 5 years of experience in backend engineering, I specialize in designing scalable API ecosystems
+          and backend architectures that align with business goals. My work often involves optimizing performance,
+          ensuring data integrity, and maintaining clean integration between distributed systems.
+          <br /><br />
+          Beyond engineering, I invest in continuous learning — deepening my understanding of leadership, communication,
+          and modern technologies that help drive impactful results.
+
         </p>
       </div>
     </div>

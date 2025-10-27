@@ -11,7 +11,7 @@
         class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline ml-4 font-mono">About</a>
       <a href="#"
         class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline ml-4 font-mono">Portfolio</a>
-      <a href="#"
+      <a href="#" @click="this.$router.push({ name: 'BlogList' })"
         class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline ml-4 font-mono">Blogs</a>
     </div>
     <div class="pt-5 sm:pt-0 sm:pr-12">
