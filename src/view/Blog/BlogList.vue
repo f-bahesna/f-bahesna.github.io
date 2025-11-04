@@ -1,7 +1,8 @@
 <template>
     <div
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 content-center xl:content-evenly gap-4 mx-20 my-20">
-        <div @click="this.$router.push({ name: 'Blog' })" class="lg:w-96 border p-5 cursor-pointer">
+        <div @click="this.$router.push({ name: 'Blog' })"
+            class="lg:w-96 border rounded-md shadow-md p-5 cursor-pointer">
             <div class="flex justify-center items-center border">
                 <img class="object-fill"
                     src="https://res.cloudinary.com/jadikaya-9/image/upload/v1761925526/race_conditions_bgkhhg.png" />
