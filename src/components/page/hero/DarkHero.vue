@@ -5,17 +5,19 @@
                 class="hero-container container flex flex-col px-6 pt-12 sm:py-4 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
                 <div class="flex flex-col items-center w-full md:flex-row md:w-1/2">
                     <div class="max-w-lg md:mx-12 md:order-2 text-center sm:text-left">
-                        <h1 class="text-3xl font-medium tracking-wide md:text-6xl" alt="frada">Hi! <span
-                                class="font-bold font-serif">I'm
-                                Frada</span></h1>
+                        <motion.h1 :animate="{ opacity: 1, y: 0 }" :initial="{ opacity: 1, y: 20 }"
+                            :transition="{ duration: 0.4 }" class="text-3xl font-medium tracking-wide md:text-6xl"
+                            alt="frada">Hi!
+                            <span class="font-bold font-serif">I'm
+                                Frada</span>
+                        </motion.h1>
                         <p class="mt-4 font-sans text-2xl" alt="introducing lianum frada bahesna">Software Engineer
                             Specialized
                             in
                             Backend <br>
-                            Currently
-                            working at a Fintech Startup based in <span class="text-3xl font-serif">INDONESIA</span></p>
+                            from <span class="text-3xl font-serif">INDONESIA</span></p>
                         <div class="mt-4 sm:mt-9">
-                            <a href="#"
+                            <a target="_blank" href="https://www.linkedin.com/in/fradabahesna/"
                                 class="block px-12 py-4 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 rounded-sm md:inline hover:bg-blue-400">Get
                                 in touch</a>
                         </div>
@@ -36,33 +38,11 @@
 </template>
 
 <script>
+import { motion } from "motion-v";
+
 export default {
-    name: "DarkHero",
+    name: "DarkHero"
 }
-// document.addEventListener('DOMContentLoaded', () => {
-//     const cursorPosition = document.querySelector('.grid-lines_cursor-position');
-
-//     if (cursorPosition) {
-//         let targetX = 0, targetY = 0;
-//         let currentX = 0, currentY = 0;
-
-//         document.addEventListener('mousemove', (e) => {
-//             targetX = e.clientX;
-//             targetY = e.clientY;
-//         });
-
-//         function animate() {
-//             currentX += (targetX - currentX) * 0.1;
-//             currentY += (targetY - currentY) * 0.1;
-
-//             cursorPosition.style.transform = `translate3d(${currentX}px, ${currentY}px, 0) scale3d(1, 1, 1)`;
-
-//             requestAnimationFrame(animate);
-//         }
-
-//         animate();
-//     }
-// });
 </script>
 
 <style scoped>

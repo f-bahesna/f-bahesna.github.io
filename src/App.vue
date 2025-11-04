@@ -5,7 +5,6 @@
       <component :is="Component" :mode="mode" />
     </router-view>
   </div>
-  <!--  TODO: 1. continue follow me section 2. Hero image right 3. Footer 4. Dark Mode rollback to light after refreshed -->
 </template>
 
 <script>
@@ -45,6 +44,7 @@ export default {
 * {
   margin: 0;
   padding: 0;
+  max-width: 100%;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }

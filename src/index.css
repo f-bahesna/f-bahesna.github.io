@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .text-title{
+    @apply text-xl md:text-2xl lg:text-3xl xl:text-4xl
+  }
+  .text-intro {
+    @apply text-base md:text-lg lg:text-xl xl:text-xl italic
+  }
+  .text-in-border {
+    @apply font-mono text-sm md:text-base lg:text-lg xl:text-xl
+  }
+  .text-important {
+    @apply font-sans text-lg md:text-2xl lg:text-3xl xl:text-3xl
+  }
+
+  .text-code{
+    @apply bg-black text-green-400 rounded-md p-3 text-sm overflow-auto mt-4
+  }
+}
+
 :root {
   margin: 0;
   padding: 0;
@@ -15,8 +34,6 @@
   --citation-a-color: MediumVioletRed;
   --citation-a-hover-color: DeepPink;
 }
-
-
 
 *, *::before, *::after {
   box-sizing: inherit;

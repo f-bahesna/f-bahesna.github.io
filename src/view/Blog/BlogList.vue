@@ -1,17 +1,18 @@
 <template>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 content-center gap-4 mx-20 my-20">
-        <div class="w-full border p-5 cursor-pointer">
+    <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 content-center xl:content-evenly gap-4 mx-20 my-20">
+        <div @click="this.$router.push({ name: 'Blog' })" class="lg:w-96 border p-5 cursor-pointer">
             <div class="flex justify-center items-center border">
-                <img src="../../assets/logo.png" />
+                <img class="object-fill"
+                    src="https://res.cloudinary.com/jadikaya-9/image/upload/v1761925526/race_conditions_bgkhhg.png" />
             </div>
-            <div class="border p-4">
-                <div class="text-3xl">title</div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus magni quae reprehenderit dolores
-                    fugiat pariatur autem odit modi tenetur in a id minus at, et quis blanditiis commodi eveniet enim?
+            <div class="border p-4 space-y-4">
+                <div class="text-1xl font-bold md:text-3xl lg:text-3xl xl:text-3xl">How I Fixed PHP Race Condition</div>
+                <p class="text-sm">What It Taught Me About Real Concurrency
                 </p>
             </div>
         </div>
-        <div class="grid place-items-center">
+        <div class="grid place-items-end">
             <div class="border p-4 w-full space-y-2 rounded-md shadow-lg">
                 <div class="size-20 w-20 bg-gray-300 rounded h-4 animate-pulse"></div>
                 <p class="size-10 w-full bg-gray-300 rounded h-8 animate-pulse"></p>
@@ -28,7 +29,7 @@
     </div>
     <div class="border-2 mx-20"></div>
     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 mx-20 my-10 pb-20">
-        <div class="border p-2 bg-gray-500 space-y-3">
+        <div class="rounded-md p-2 bg-gray-500 space-y-3">
             <img class="size-40 bg-gray-300 rounded h-60 animate-pulse" src="#" alt="">
             <div class="size-20 w-20 bg-gray-300 rounded h-4 animate-pulse"></div>
             <p class="size-10 w-full bg-gray-300 rounded h-4 animate-pulse"></p>
@@ -38,7 +39,7 @@
             </div>
             <p class="size-10 w-full bg-gray-300 rounded h-4 animate-pulse"></p>
         </div>
-        <div class="border p-2 bg-gray-500 space-y-3">
+        <div class="rounded-md p-2 bg-gray-500 space-y-3">
             <img class="size-40 bg-gray-300 rounded h-60 animate-pulse" src="#" alt="">
             <div class="size-20 w-20 bg-gray-300 rounded h-4 animate-pulse"></div>
             <p class="size-10 w-full bg-gray-300 rounded h-4 animate-pulse"></p>
@@ -48,7 +49,7 @@
             </div>
             <p class="size-10 w-full bg-gray-300 rounded h-4 animate-pulse"></p>
         </div>
-        <div class="border p-2 bg-gray-500 space-y-3">
+        <div class="rounded-md p-2 bg-gray-500 space-y-3">
             <img class="size-40 bg-gray-300 rounded h-60 animate-pulse" src="#" alt="">
             <div class="size-20 w-20 bg-gray-300 rounded h-4 animate-pulse"></div>
             <p class="size-10 w-full bg-gray-300 rounded h-4 animate-pulse"></p>
