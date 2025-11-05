@@ -4,11 +4,13 @@
     <router-view v-slot="{ Component }">
       <component :is="Component" :mode="mode" />
     </router-view>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Navbar from "./components/base/Navbar.vue";
+import Footer from "./components/base/Footer.vue";
 export default {
   data() {
     let display = localStorage.getItem("display")
@@ -17,7 +19,7 @@ export default {
       mode: display ?? "light"
     }
   },
-  components: { Navbar },
+  components: { Navbar, Footer },
   created() {
     window.addEventListener('keyup', this.keyPress)
   },

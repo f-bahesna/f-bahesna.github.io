@@ -2,7 +2,6 @@
   <DarkHero v-if="isDark" :ref="cursorElement" />
   <LightHero v-else />
   <Portfolio />
-  <follow-me />
 </template>
 
 <script>
