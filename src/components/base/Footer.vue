@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white h-full py-2 pt-7 pb-12">
+    <div class="bg-white h-full py-2 pt-7 pb-7">
         <div class="flex justify-center items-center">
             <FollowMe />
         </div>

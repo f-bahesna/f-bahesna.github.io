@@ -1,15 +1,6 @@
 <template>
   <div class="container flex flex-col w-full md:max-w-96 mx-auto text-center space-y-4 bottom-0">
     <h1 class="flex-row font-black font-sans text-2xl md:text-3xl">Follow Me :</h1>
-    <p class="font-mono text-md lg:text-xl italic">Bad programmers worry about the code. Good programmers worry
-      about
-      data
-      structures and
-      their
-      relationships.</p>
-    <div class="flex text-sm lg:text-lg xl:text-lg justify-center lg:justify-end xl:justify-end">
-      <p>~ Linus Torvalds - Creator of Linux & Git</p>
-    </div>
     <div class="flex flex-row mx-auto gap-4">
       <a href="https://github.com/f-bahesna" alt="github"
         class="hover:bg-sky-400 hover:shadow-lg bg-white p-2 rounded-full hover:rounded-full focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
@@ -44,6 +35,15 @@
           </g>
         </svg>
       </a>
+    </div>
+    <p class="font-mono text-md lg:text-xl italic">Bad programmers worry about the code. Good programmers worry
+      about
+      data
+      structures and
+      their
+      relationships.</p>
+    <div class="flex text-sm lg:text-lg xl:text-lg justify-center lg:justify-center xl:justify-end">
+      <p>~ Linus Torvalds - Creator of Linux & Git</p>
     </div>
   </div>
 </template>
