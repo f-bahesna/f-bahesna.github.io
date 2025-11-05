@@ -23,10 +23,8 @@
 </template>
 
 <script>
-import { motion } from "motion-v";
 
 export default {
-    name: "MainHero",
-    components: { motion }
+    name: "MainHero"
 }
 </script>
