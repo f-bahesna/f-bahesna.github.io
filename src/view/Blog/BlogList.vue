@@ -1,6 +1,6 @@
 <template>
     <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 content-center xl:content-evenly gap-4 mx-20 my-20">
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 content-center xl:content-evenly gap-2 mx-20 my-10">
         <div @click="this.$router.push({ name: 'Blog' })"
             class="lg:w-96 border rounded-md shadow-md p-5 cursor-pointer">
             <div class="flex justify-center items-center border">
@@ -13,7 +13,10 @@
                 </p>
             </div>
         </div>
-        <div class="grid place-items-end">
+        <div class="grid content-end gap-4">
+            <div>
+                <h2>Top Picks >></h2>
+            </div>
             <div class="border p-4 w-full space-y-2 rounded-md shadow-lg">
                 <div class="size-20 w-20 bg-gray-300 rounded h-4 animate-pulse"></div>
                 <p class="size-10 w-full bg-gray-300 rounded h-8 animate-pulse"></p>
