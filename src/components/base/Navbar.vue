@@ -8,11 +8,11 @@
     </div>
     <div class="grid gap-3 md:gap-4 lg:gap-4 grid-col-4 grid-flow-col place-content-center">
       <a href="#" @click="this.$router.push({ name: 'About' })"
-        class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline font-mono">About</a>
+        class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline hover:scale-110 transition duration-250 ease-in-out font-mono">About</a>
       <a href="#"
-        class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline font-mono">Portfolio</a>
+        class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline hover:scale-110 transition duration-250 ease-in-out font-mono">Portfolio</a>
       <a href="#" @click="this.$router.push({ name: 'BlogList' })"
-        class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline font-mono">Blogs</a>
+        class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline hover:scale-110 transition duration-250 ease-in-out font-mono">Blogs</a>
       <Toogle :mode="mode" @toggle="$emit('toggle')" />
     </div>
   </nav>

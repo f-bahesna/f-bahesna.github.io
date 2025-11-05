@@ -3,7 +3,7 @@
     <h1 class="flex-row font-black font-sans text-2xl md:text-3xl">Follow Me :</h1>
     <div class="flex flex-row mx-auto gap-4">
       <a href="https://github.com/f-bahesna" alt="github"
-        class="hover:bg-sky-400 hover:shadow-lg bg-white p-2 rounded-full hover:rounded-full focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+        class="hover:bg-sky-400 hover:shadow-lg bg-white p-2 rounded-full hover:rounded-full focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg hover:scale-110 transition duration-300 ease-in-out"
         target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px"
           viewBox="0 0 32 32" version="1.1">
@@ -14,7 +14,7 @@
         </svg>
       </a>
       <a href="https://www.linkedin.com/in/fradabahesna" alt="linkedin"
-        class="hover:bg-sky-400 hover:shadow-lg bg-white p-2 rounded-full hover:rounded-full focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+        class="hover:bg-sky-400 hover:shadow-lg bg-white p-2 rounded-full hover:rounded-full focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg hover:scale-110 transition duration-300 ease-in-out"
         target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px"
           viewBox="0 0 32 32" version="1.1">
@@ -25,7 +25,7 @@
         </svg>
       </a>
       <a href="https://twitter.com/bahesnanana" alt="twitter"
-        class="hover:bg-sky-400 hover:shadow-lg bg-white p-2 rounded-full hover:rounded-full focus:bg-sky-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+        class="hover:bg-sky-400 hover:shadow-lg bg-white p-2 rounded-full hover:rounded-full focus:bg-sky-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg hover:scale-110 transition duration-300 ease-in-out"
         target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px"
           viewBox="0 0 32 32" version="1.1">
