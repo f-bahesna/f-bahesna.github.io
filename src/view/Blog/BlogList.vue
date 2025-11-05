@@ -1,6 +1,6 @@
 <template>
     <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 content-center xl:content-evenly gap-2 mx-20 my-10">
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 content-center xl:content-evenly gap-2 mx-10 md:mx-15 lg:mx-20 my-10">
         <div @click="this.$router.push({ name: 'Blog' })"
             class="lg:w-96 border rounded-md shadow-md p-5 cursor-pointer">
             <div class="flex justify-center items-center border">
@@ -31,8 +31,9 @@
             </div>
         </div>
     </div>
-    <div class="border-2 mx-20"></div>
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 mx-20 my-10 pb-20">
+    <div class="border-2 mx-10 lg:mx-20"></div>
+    <div
+        class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 mx-10 md:mx-15 lg:mx-20 my-10 pb-20">
         <div class="rounded-md p-2 bg-gray-500 space-y-3">
             <img class="size-40 bg-gray-300 rounded h-60 animate-pulse" src="#" alt="">
             <div class="size-20 w-20 bg-gray-300 rounded h-4 animate-pulse"></div>
