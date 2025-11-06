@@ -6,5 +6,7 @@ import VueGtag from "vue-gtag"
 
 createApp(App)
     .use(router)
-    .use(VueGtag)
+    .use(VueGtag, {
+        config: {id: "G-YH4KDREFBH"}
+    })
     .mount('#app')
