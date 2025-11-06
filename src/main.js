@@ -2,13 +2,13 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import './index.css'
 import router from './router'
-import { createGtagPlugin } from "vue-gtag"
+import { createGtag } from "vue-gtag"
+
+const gtag = createGtag({
+    tagId: "G-YH4KDREFBH"
+})
 
 createApp(App)
     .use(router)
-    .use(createGtagPlugin, {
-        property: {
-            id: "G-YH4KDREFBH"
-        }
-    })
+    .use(gtag)
     .mount('#app')
