@@ -9,7 +9,7 @@
     <div class="grid gap-3 md:gap-4 lg:gap-4 grid-col-4 grid-flow-col place-content-center">
       <a href="#" @click="this.$router.push({ name: 'About' })"
         class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline hover:scale-110 transition duration-250 ease-in-out font-mono">About</a>
-      <a href="#"
+      <a href="/#portfolio"
         class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline hover:scale-110 transition duration-250 ease-in-out font-mono">Portfolio</a>
       <a href="#" @click="this.$router.push({ name: 'BlogList' })"
         class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline hover:scale-110 transition duration-250 ease-in-out font-mono">Blogs</a>
