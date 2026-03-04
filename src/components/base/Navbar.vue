@@ -11,8 +11,8 @@
         class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline hover:scale-110 transition duration-250 ease-in-out font-mono">About</a>
       <a href="/#portfolio"
         class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline hover:scale-110 transition duration-250 ease-in-out font-mono">Portfolio</a>
-      <a href="#" @click="this.$router.push({ name: 'BlogList' })"
-        class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline hover:scale-110 transition duration-250 ease-in-out font-mono">Blogs</a>
+      <a href="/#articles"
+        class="text-lg no-underline text-grey-darkest hover:text-blue-dark hover:underline hover:scale-110 transition duration-250 ease-in-out font-mono">Articles</a>
       <Toogle :mode="mode" @toggle="$emit('toggle')" />
     </div>
   </nav>
