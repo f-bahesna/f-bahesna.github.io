@@ -14,7 +14,8 @@
               <br />
             </p>
             <p class="indent-8 font-sans">
-              In 2020, I moved to a remote backend developer role for a company in South Jakarta, where I've worked for
+              In 2020, I moved to a remote backend developer role for a company in South Jakarta (Ammana.id), where I've
+              worked for
               about five years.
               During this time, I explored deeper how Laravel can be customized for different business needs. I learn
               about
@@ -24,11 +25,16 @@
               Design Systems.
             </p>
             <br />
-            <p class="indent-8 font-sans">With over 5 years of experience in backend engineering, I specialize in
+            <p class="indent-8 font-sans">With over 5 years of experience in backend engineering at, I specialize in
               designing
               scalable API ecosystems
               and backend architectures that align with business goals. My work often involves optimizing performance,
               ensuring data integrity, and maintaining clean integration between distributed systems.</p>
+            <br />
+            <p class="indent-8 font-sans">Right now, I'm a Full Stack Engineer at Strategic Asia Pte Ltd (Remote
+              Singapore), where I design and scale end-to-end project systems.I work closely with Solution Architect,
+              product and business teams to deliver high-impact solutions, ensure performance, scalability and
+              maintainability accros the stack.</p>
             <br />
             <p class="indent-8 font-sans">
               I believe great software should be simple, reliable, and easy to grow, and I keep learning to build better

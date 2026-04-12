@@ -5,9 +5,10 @@
                 <span class="font-bold font-serif">I'm
                     Frada</span>
             </h1>
-            <p class="mt-4 font-sans text-2xl" alt="introducing lianum frada bahesna">Software Engineer
-                Backend <br>
-                From <span class="text-3xl font-serif">INDONESIA</span></p>
+            <p class="mt-4 font-sans text-2xl" alt="introducing lianum frada bahesna">Full Stack Engineer
+                <br>
+                From <span class="text-3xl font-serif">INDONESIA</span>
+            </p>
             <div class="mt-4 sm:mt-9">
                 <a href="https://www.linkedin.com/in/fradabahesna" target="_blank"
                     class="block px-12 py-4 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 rounded-md md:inline hover:bg-blue-400">Get
