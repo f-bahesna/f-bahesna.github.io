@@ -5,9 +5,9 @@
                 <span class="font-bold font-serif">I'm
                     Frada</span>
             </h1>
-            <p class="mt-4 font-sans text-2xl" alt="introducing lianum frada bahesna">Full Stack Engineer
+            <p class="mt-4 font-sans text-2xl" alt="introducing lianum frada bahesna">Fullstack AI Engineer
                 <br>
-                From <span class="text-3xl font-serif">INDONESIA</span>
+                <span class="text-lg text-gray-500 block mt-1">currently working as a <span class="font-bold underline">Middle Golang Backend Engineer</span> at <span class="font-bold underline">Inosoft</span> 🇮🇩</span>
             </p>
             <div class="mt-4 sm:mt-9">
                 <a href="https://www.linkedin.com/in/fradabahesna" target="_blank"

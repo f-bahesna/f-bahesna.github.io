@@ -3,7 +3,7 @@
     <div class="space-y-6">
       <div class="w-full flex-col border-1 p-5 bg-yellow-50 rounded shadow-2xl">
         <div class="mb-8">
-          <div class="text-gray-700 text-md text-wrap font-sans">Hi I'm Frada Software Engineer from Indonesia.
+          <div class="text-gray-700 text-md text-wrap font-sans">Hi, I'm Frada, a Fullstack AI Engineer currently working as a <span class="font-bold underline">Middle Golang Backend Engineer</span> at <span class="font-bold underline">Inosoft</span> 🇮🇩.
             <p class="indent-8 font-sans">I began my career as a Backend Software Engineer at a fintech startup in
               Yogyakarta in
               2019. As a Junior Software Engineer, I contribute to develop Backoffice project, buildding internal tools
@@ -25,16 +25,16 @@
               Design Systems.
             </p>
             <br />
-            <p class="indent-8 font-sans">With over 5 years of experience in backend engineering at, I specialize in
+            <p class="indent-8 font-sans">With over 5 years of experience in backend engineering, I specialize in
               designing
               scalable API ecosystems
               and backend architectures that align with business goals. My work often involves optimizing performance,
               ensuring data integrity, and maintaining clean integration between distributed systems.</p>
             <br />
-            <p class="indent-8 font-sans">Right now, I'm a Full Stack Engineer at Strategic Asia Pte Ltd (Remote
-              Singapore), where I design and scale end-to-end project systems.I work closely with Solution Architect,
-              product and business teams to deliver high-impact solutions, ensure performance, scalability and
-              maintainability accros the stack.</p>
+            <p class="indent-8 font-sans">Most recently, I served as a Full Stack Engineer at Strategic Asia Pte Ltd (Remote
+              Singapore) on a high-impact, 3-month project-based contract. In this role, I designed and scaled end-to-end
+              project systems, collaborating closely with the Solution Architect, product, and business teams to deliver
+              scalable, high-performance, and maintainable solutions across the stack.</p>
             <br />
             <p class="indent-8 font-sans">
               I believe great software should be simple, reliable, and easy to grow, and I keep learning to build better
